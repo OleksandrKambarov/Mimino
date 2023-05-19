@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://oleksandrkambarov.github.io/project-mimino",
+  "homepage": "https://github.com/OleksandrKambarov/Mimino",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /project-mimino/"
