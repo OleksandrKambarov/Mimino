@@ -1,0 +1,42 @@
+.menu-form-room {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @include for-tablet-landscape-up {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 16px;
+    }
+}
+
+.form-box-room {
+    @include for-tablet-landscape-up {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+}
+
+.modal-room {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+
+    max-width: 414px;
+    width: 100%;
+    max-height: 780px;
+    background: $bgrColorLemon;
+
+    @include for-tablet-landscape-up {
+        max-width: 712px;
+        height: 580px;
+    }
+
+    overflow: auto;
+
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 250ms linear;
+}

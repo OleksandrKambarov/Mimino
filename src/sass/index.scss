@@ -1,0 +1,31 @@
+@import './base/reset';
+@import './abstracts/breakpoints';
+@import './abstracts/mixins';
+@import './abstracts/variables';
+@import './base/base';
+@import './base/typography';
+
+@import '../../node_modules/swiper/swiper.scss';
+
+@import './components/buttons';
+@import './layout/container';
+@import './layout/footer';
+@import './layout/header';
+@import './layout/hero-main';
+@import './modals/main-styles';
+@import './modals/price';
+@import './modals/room';
+@import './pages/about-hotel';
+@import './pages/about-kitchen';
+@import './pages/about-restaurant';
+@import './pages/hero-first';
+@import './pages/hero-hotel';
+@import './pages/hero-restaurant';
+@import './pages/hero-room';
+@import './pages/hotel-details';
+@import './pages/restaurant-details';
+@import './pages/section-amenities';
+@import './pages/section-contacts';
+@import './pages/section-hotel';
+@import './pages/table-restaurant';
+@import './pages/about-hotel';

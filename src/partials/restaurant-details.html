@@ -1,0 +1,89 @@
+<section class="restaurant-details">
+  <div class="restaurant-details__container">
+    <h3 class="restaurant-details__subtitle">MIMIHO</h3>
+    <h2 class="restaurant-details__title">Ресторан</h2>
+    <p class="restaurant-details__text">
+      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+      Velit officia consequat duis enim velit mollit.
+    </p>
+    <!-- Slider main container -->
+    <div class="swiper swiper-rest-details restaurant-details__swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div
+          class="swiper-slide restaurant-details__slide restaurant-details__slide--square"
+        >
+          <img
+            srcset="
+              ./images/homepage/restaurant_slider/meal1.jpg    270w,
+              ./images/homepage/restaurant_slider/meal1@2x.jpg 540w
+            "
+            sizes="(min-width: 414px) 270px, 65vw"
+            src="./images/homepage/restaurant_slider/meal1.jpg"
+            alt="Зразок страви"
+            class="restaurant-details__image"
+          />
+        </div>
+        <div
+          class="swiper-slide restaurant-details__slide restaurant-details__slide--narrow"
+        >
+          <img
+            srcset="
+              ./images/homepage/restaurant_slider/meal2.jpg    270w,
+              ./images/homepage/restaurant_slider/meal2@2x.jpg 540w
+            "
+            sizes="(min-width: 414px) 270px, 65vw"
+            src="./images/homepage/restaurant_slider/meal2.jpg"
+            alt="Зразок страви"
+            class="restaurant-details__image"
+          />
+        </div>
+        <div
+          class="swiper-slide restaurant-details__slide restaurant-details__slide--square"
+        >
+          <img
+            srcset="
+              ./images/homepage/restaurant_slider/meal3.jpg    270w,
+              ./images/homepage/restaurant_slider/meal3@2x.jpg 540w
+            "
+            sizes="(min-width: 414px) 270px, 65vw"
+            src="./images/homepage/restaurant_slider/meal3.jpg"
+            alt="Зразок страви"
+            class="restaurant-details__image"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="restaurant-details__swiper-button-wrapper">
+      <button
+        type="button"
+        class="swiper-rest-details-button-prev restaurant-details__swiper-button"
+      >
+        <svg class="restaurant-details__icon" width="32px" height="32px">
+          <use href="./images/sprite.svg#icon-arrow-left"></use>
+        </svg>
+      </button>
+      <button
+        type="button"
+        class="swiper-rest-details-button-next restaurant-details__swiper-button"
+      >
+        <svg class="restaurant-details__icon" width="32px" height="32px">
+          <use href="./images/sprite.svg#icon-arrow-right"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="restaurant-details__modal-button-wrapper">
+      <button
+        class="restaurant-details__modal-button"
+        type="button"
+        data-modal-table-open-1
+      >
+        Забронювати столик
+      </button>
+      <a href="restaurant.html#menu" class="restaurant-details__modal-button">
+        Переглянути меню
+      </a>
+    </div>
+  </div>
+</section>

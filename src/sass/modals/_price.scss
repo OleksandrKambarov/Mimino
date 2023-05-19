@@ -1,0 +1,49 @@
+.modal-price {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+
+    max-width: 414px;
+    width: 100%;
+    height: 572px;
+    background: $bgrColorLemon;
+
+    @include for-tablet-landscape-up {
+        max-width: 712px;
+        height: 489px;
+    }
+
+    overflow: auto;
+
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 250ms linear;
+}
+
+.modal-form {
+    &__type-room {
+        margin-bottom: 28px;
+        font-family: 'TimesNewRoman';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.17;
+
+        letter-spacing: 0.05em;
+
+        color: #808080;
+    }
+
+    &__descr {
+        display: block;
+        margin-bottom: 20px;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.21;
+        letter-spacing: 0.02em;
+
+        color: $brownColor;
+    }
+}
