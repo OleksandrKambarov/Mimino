@@ -1,15 +1,15 @@
 {
-  "name": "parcel-project-template",
+  "name": "project-mimino",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/OleksandrKambarov/Mimino",
+  "homepage": "https://github.com/OleksandrKambarov/project-mimino",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /project-mimino/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oleksandrkambarov/project-Mimino.git"
+    "url": "git+https://github.com/oleksandrkambarov/project-project-mimino.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
